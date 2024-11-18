@@ -1,26 +1,38 @@
 import { useState, useEffect } from "react";
 
-
 const App = () => {
-return (
-	<>
-	<nav className="nav-mobile">
-		<img src="src/img/logo.svg" alt="Logo sunny side" className="nav-mobile-logo" />
-		<img src="src/img/icon-hamburger.svg" alt="Menu button" className="nav-mobile-btn" />
-	</nav>
-	<header className="header">
-		<h1 className="header-title">we are creatives</h1>
-		<img src="src/img/icon-arrow-down.svg" alt="Arrow down icon" className="header-arrow" />
-		<img src="src/img/mobile/image-header.jpg" alt="Header image" className="header-img"/>
-	</header>
-	</>
-)
-
+	return (
+		<>
+			<nav className='nav-mobile'>
+				<img src='src/img/logo.svg' alt='Logo sunny side' className='nav-mobile-logo' />
+				<img src='src/img/icon-hamburger.svg' alt='Menu button' className='nav-mobile-btn' />
+				<div className='nav-mobile-menu'>
+					<ul className='menu-container'>
+						<li className='menu-container-item'>
+							<a href='#about'>About</a>
+						</li>
+						<li className='menu-container-item'>
+							<a href='#services'>Services</a>
+						</li>
+						<li className='menu-container-item'>
+							<a href='#projects'>Projects</a>
+						</li>
+						<li className='menu-container-item'>
+							<a href='contact'>Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div className="nav-mobile-skew"></div>
+			</nav>
+			<header className='header'>
+				<h1 className='header-title'>we are creatives</h1>
+				<img src='src/img/icon-arrow-down.svg' alt='Arrow down icon' className='header-arrow' />
+				<img src='src/img/mobile/image-header.jpg' alt='Header image' className='header-img' />
+			</header>
+		</>
+	);
 };
 export default App;
-
-
-
 
 // About
 //   Services
@@ -31,14 +43,14 @@ export default App;
 
 //   Transform your brand
 
-//   We are a full-service creative agency specializing in helping brands grow fast. 
+//   We are a full-service creative agency specializing in helping brands grow fast.
 //   Engage your clients through compelling visuals that do most of the marketing for you.
 
 //   Learn more
 
 //   Stand out to the right audience
 
-//   Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+//   Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
 
 //   Learn more
 
