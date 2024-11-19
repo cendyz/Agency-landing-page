@@ -16,7 +16,7 @@
 
 body {
 	font-size: 16px;
-	background-color: #333;
+	background-color: var(--white);
 	font-family: "Barlow", sans-serif;
 }
 
@@ -88,18 +88,18 @@ body {
 }
 
 .header {
-	margin-top: 12.8vw;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	row-gap: 14.93vw;
+	height: 120vw;
 }
 
 .header-title {
+	margin-top: 1em;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: "Fraunces", serif;
-	font-size: clamp(4rem, calc(4rem + ((58 - 40) * ((100vw - 375px) / (575 - 375)))), 5.8rem);
+	font-size: clamp(4rem, calc(4rem + ((62 - 40) * ((100vw - 375px) / (575 - 375)))), 6.2rem);
 	letter-spacing: 0.18em;
 	color: var(--white);
 }
@@ -113,8 +113,123 @@ body {
 .header-img {
 	position: absolute;
 	top: 0;
+	left: 0;
 	width: 100%;
 	z-index: -1;
+}
+
+.article-photo {
+	display: block;
+	width: 100%;
+}
+
+.article {
+	display: grid;
+	row-gap: 1.6em;
+	padding: 3.7em 1.7em;
+	text-align: center;
+}
+
+.article-title {
+	font-size: 3rem;
+}
+
+.article-text {
+	font-weight: 600;
+	color: var(--dark-grayish-blue);
+	line-height: 1.7;
+	font-size: 1.8rem;
+}
+
+.article-link {
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: var(--very-dark-desaturated-blue);
+	border-bottom: 2px solid var(--yellow);
+}
+
+.article-link,
+.article-title {
+	font-family: var(--fraunces);
+	font-weight: 900;
+}
+
+.article-with-img {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	position: relative;
+	height: 600px;
+}
+
+.article-img {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+}
+
+.article-box {
+	padding: 3em 1em;
+	text-align: center;
+}
+
+.article-title-box {
+	color: var(--dark-desaturated-cyan);
+}
+
+.article-text-text {
+	margin-top: 1.8em;
+	color: var(--dark-desaturated-cyan);
+	font-size: 1.6rem;
+}
+
+.last-section {
+	padding: 3.5em 2em;
+	padding-bottom: 5.5em;
+	text-align: center;
+}
+
+.last-section-title {
+	font-family: var(--fraunces);
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 1.6rem;
+	color: var(--grayish-blue);
+}
+
+.last-img {
+	margin-top: 4.5em;
+	margin-bottom: 2em;
+	width: 65px;
+	border-radius: 50%;
+}
+
+.last-info {
+	font-size: 1.75rem;
+	font-weight: 600;
+	color: var(--very-dark-grayish-blue);
+	line-height: 1.7;
+}
+
+.last-name {
+	margin-top: 2em;
+	margin-bottom: 0.7em;
+	font-family: var(--fraunces);
+	font-weight: 900;
+}
+
+.last-job {
+	font-size: 1.3rem;
+	color: var(--grayish-blue);
+}
+
+.images {
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
 }
 
 // - Mobile: 375px
