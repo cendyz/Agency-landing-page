@@ -29,6 +29,9 @@ const App = () => {
 				<img src='src/img/icon-arrow-down.svg' alt='Arrow down icon' className='header-arrow' />
 				<img src='src/img/mobile/image-header.jpg' alt='Header image' className='header-img' />
 			</header>
+			<main className="main">
+				
+			</main>
 		</>
 	);
 };
