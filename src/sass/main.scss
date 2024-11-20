@@ -408,7 +408,7 @@ body {
 		width: 100%;
 	}
 	.nav-mobile {
-		padding: 1.5em 2em;
+		padding: 2.42vw 3.23vw;
 	}
 
 	.nav-mobile-btn {
@@ -425,13 +425,13 @@ body {
 
 	.links-container {
 		display: flex;
-		column-gap: 2em;
+		column-gap: 3.23vw;
 		align-items: center;
 	}
 
 	.desktop-link {
 		color: var(--white);
-		font-size: 1.3rem;
+		font-size: clamp(1.3rem, calc(1.3rem + ((18.85 - 13) * ((100vw - 992px) / (1440 - 992)))), 1.885rem);
 		transition: color 0.2s;
 
 		&:hover {
@@ -439,13 +439,13 @@ body {
 		}
 
 		&:last-child {
-			padding: 0.9em 1.5em;
+			padding: 1.45vw 2.42vw;
 			background-color: var(--white);
 			color: var(--very-dark-desaturated-blue);
 			font-weight: 700;
 			font-family: var(--fraunces);
 			text-transform: uppercase;
-			border-radius: 1.5em;
+			border-radius: 2.42vw;
 			transition: color 0.2s, background-color 0.2s;
 
 			&:hover {
@@ -456,14 +456,14 @@ body {
 	}
 
 	.header {
-		row-gap: 3.5em;
-		height: calc(551.117px - 87.4px);
+		row-gap: 5.65vw;
+		height: calc(55.56vw - 9.35vw);
 	}
 
 	.header-title {
-		margin-top: 1.2em;
-		font-size: 4.3rem;
-		letter-spacing: 0.15em;
+		margin-top: 4.5vw;
+		font-size: clamp(4.295rem, calc(4.295rem + ((62.35 - 42.95) * ((100vw - 992px) / (1440 - 992)))), 6.235rem);
+		letter-spacing: 0.24vw;
 	}
 
 	.header-arrow {
@@ -478,28 +478,32 @@ body {
 	.article-photo,
 	.article,
 	.article-with-img {
-		height: 413.333px;
+		height: 41.67vw;
 	}
 
 	.article {
-		padding: 4.5em;
+		padding: 7.26vw;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		row-gap: 2em;
+		row-gap: 3.23vw;
 		text-align: left;
 	}
 
 	.article-title {
-		font-size: 3rem;
+		font-size: clamp(
+			3.17333rem,
+			calc(3.17333rem + ((46.0667 - 31.7333) * ((100vw - 992px) / (1440 - 992)))),
+			4.60667rem
+		);
 	}
 	.article-text {
-		font-size: 1.4rem;
+		font-size: clamp(1.39833rem, calc(1.39833rem + ((20.3 - 13.9833) * ((100vw - 992px) / (1440 - 992)))), 2.03rem);
 	}
 
 	.article-link {
 		position: relative;
-		font-size: 1.3rem;
+		font-size: clamp(1.29833rem, calc(1.29833rem + ((18.85 - 12.9833) * ((100vw - 992px) / (1440 - 992)))), 1.885rem);
 		margin: 0;
 		margin-right: auto;
 		border-bottom: none;
@@ -510,9 +514,9 @@ body {
 			bottom: 0;
 			right: -2.5%;
 			width: 105%;
-			height: 4px;
+			height: 0.4vw;
 			background-color: var(--yellow);
-			border-radius: 2em;
+			border-radius: 0.2vw;
 			z-index: -1;
 			transition: background-color 0.2s;
 		}
@@ -524,16 +528,21 @@ body {
 		}
 	}
 
-	.article-title {
-		font-size: 2rem;
+	.article-title-box {
+		font-size: clamp(
+			2.00333rem,
+			calc(2.00333rem + ((29.0833 - 20.14400333) * ((100vw - 992px) / (1440 - 992)))),
+			2.90833rem
+		);
 	}
+
 	.article-text-text {
-		font-size: 1.5rem;
-		margin: 1.5em 5em 1em;
+		font-size: clamp(1.39833rem, calc(1.39833rem + ((20.3 - 13.9833) * ((100vw - 992px) / (1440 - 992)))), 2.03rem);
+		margin: 2.42vw 8.06vw 1.61vw;
 	}
 
 	.article-box {
-		padding: 1em;
+		padding: 1.61vw;
 	}
 
 	.last-section,
@@ -543,46 +552,42 @@ body {
 
 	.last-section {
 		grid-column: 1/3;
-		padding: 5.5em 7em;
-
+		padding: 8.87vw 11.29vw;
 		justify-content: center;
 		flex-direction: column;
 	}
 
 	.last-section-container {
-		column-gap: 1.3em;
+		column-gap: 2.1vw;
 	}
 
 	.last-section-title {
-		font-size: 1.3rem;
-		letter-spacing: 0.25em;
+		font-size: clamp(1.29833rem, calc(1.29833rem + ((18.85 - 12.9833) * ((100vw - 992px) / (1440 - 992)))), 1.885rem);
+		letter-spacing: 0.4vw;
 	}
 
 	.last-img {
 		margin: 0;
-		margin-top: 3em;
-		margin-bottom: 2em;
-		width: 50px;
+		margin-top: 4.84vw;
+		margin-bottom: 3.23vw;
+		width: 5.04vw;
 	}
 
 	.last-info {
-		font-size: 1.23rem;
+		font-size: clamp(1.23rem, calc(1.23rem + ((17.85 - 12.3) * ((100vw - 992px) / (1440 - 992)))), 1.785rem);
 	}
 
 	.last-section-box {
 		&:nth-child(2) {
 			.last-info {
-				width: 240px;
+				width: 24.19vw;
 			}
 		}
 	}
 
-	.last-job {
-		font-size: 1.2rem;
-	}
-
+	.last-job,
 	.last-name {
-		font-size: 1.2rem;
+		font-size: clamp(1.2rem, calc(1.2rem + ((17.4167 - 12) * ((100vw - 992px) / (1440 - 992)))), 1.74167rem);
 	}
 
 	.images {
@@ -605,38 +610,31 @@ body {
 	}
 
 	.footer {
-		padding: 5em 0;
+		padding: 8.06vw 0;
 	}
 
 	.footer-img {
-		margin-bottom: 2.5em;
+		margin-bottom: 4.03vw;
 		width: 18%;
 	}
 
 	.footer-links {
-		margin-bottom: 6em;
+		margin-bottom: 9.68vw;
 		justify-content: center;
-		column-gap: 5em;
+		column-gap: 6.36vw;
 	}
 
 	.footer-link {
-		font-size: 1.8rem;
+		font-size: clamp(1.795rem, calc(1.795rem + ((26.05 - 17.95) * ((100vw - 992px) / (1440 - 992)))), 2.605rem);
 	}
 
 	.footer-icons {
 		margin-bottom: 0;
-		column-gap: 1.6em;
+		column-gap: 2.58vw;
 	}
 
 	.footer-icon {
 		width: 2%;
+		cursor: pointer;
 	}
 }
-
-// - Mobile: 375px
-// - Desktop: 1440px
-
-// - Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-// - Weights: 600
-// - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-// - Weights: 700, 900
