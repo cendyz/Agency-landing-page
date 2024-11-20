@@ -108,6 +108,26 @@ const App = () => {
 					<img src='src/img/mobile/image-gallery-sugar-cubes.jpg' alt='Sugar cubes' className='article-photo' />
 				</div>
 			</main>
+			<footer className='footer'>
+				<img src="src/img/logo.svg" alt="Logo icon" className="footer-img" />
+				<div className='footer-links'>
+					<a href='#' className='footer-link'>
+						About
+					</a>
+					<a href='#' className='footer-link'>
+						Services
+					</a>
+					<a href='#' className='footer-link'>
+						Projects
+					</a>
+				</div>
+				<div className='footer-icons'>
+					<img src='src/img/icon-facebook.svg' alt='Facebook icon' className='footer-icon' />
+					<img src='src/img/icon-instagram.svg' alt='Instagram icon' className='footer-icon' />
+					<img src='src/img/icon-twitter.svg' alt='Twitter icon' className='footer-icon' />
+					<img src='src/img/icon-pinterest.svg' alt='Pinterest icon' className='footer-icon' />
+				</div>
+			</footer>
 		</>
 	);
 };
