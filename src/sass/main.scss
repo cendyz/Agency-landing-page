@@ -95,19 +95,19 @@ body {
 }
 
 .header-title {
-	margin-top: 1em;
+	margin-top: 4.27vw;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: "Fraunces", serif;
 	font-size: clamp(4rem, calc(4rem + ((62 - 40) * ((100vw - 375px) / (575 - 375)))), 6.2rem);
-	letter-spacing: 0.18em;
+	letter-spacing: 0.77vw;
 	color: var(--white);
 }
 
 .header-arrow {
 	display: block;
 	margin: 0 auto;
-	width: 10%;
+	width: 12.2%;
 }
 
 .header-img {
@@ -125,26 +125,26 @@ body {
 
 .article {
 	display: grid;
-	row-gap: 1.6em;
-	padding: 3.7em 1.7em;
+	row-gap: 6.83vw;
+	padding: 15.79vw 7.25vw;
 	text-align: center;
 }
 
 .article-title {
-	font-size: 3rem;
+	font-size: clamp(3rem, calc(3rem + ((46 - 30) * ((100vw - 375px) / (575 - 375)))), 4.6rem);
 }
 
 .article-text {
 	font-weight: 600;
 	color: var(--dark-grayish-blue);
 	line-height: 1.7;
-	font-size: 1.8rem;
+	font-size: clamp(1.8rem, calc(1.8rem + ((27.6 - 18) * ((100vw - 375px) / (575 - 375)))), 2.76rem);
 }
 
 .article-link {
 	width: fit-content;
 	margin: 0 auto;
-	font-size: 1.5rem;
+	font-size: clamp(1.5rem, calc(1.5rem + ((23 - 15) * ((100vw - 375px) / (575 - 375)))), 2.3rem);
 	text-transform: uppercase;
 	color: var(--very-dark-desaturated-blue);
 	border-bottom: 2px solid var(--yellow);
@@ -161,7 +161,7 @@ body {
 	justify-content: center;
 	align-items: flex-end;
 	position: relative;
-	height: 600px;
+	height: 160vw;
 }
 
 .article-img {
@@ -173,7 +173,7 @@ body {
 }
 
 .article-box {
-	padding: 3em 1em;
+	padding: 12.8vw 4.27vw;
 	text-align: center;
 }
 
@@ -182,48 +182,50 @@ body {
 }
 
 .article-text-text {
-	margin-top: 1.8em;
+	margin-top: 7.68vw;
 	color: var(--dark-desaturated-cyan);
-	font-size: 1.6rem;
+	font-size: clamp(1.6rem, calc(1.6rem + ((24.55 - 16) * ((100vw - 375px) / (575 - 375)))), 2.455rem);
 }
 
 .last-section {
-	padding: 3.5em 2em;
-	padding-bottom: 5.5em;
+	padding: 14.93vw 8.53vw;
+	padding-bottom: 23.47vw;
 	text-align: center;
 }
 
 .last-section-title {
 	font-family: var(--fraunces);
 	text-transform: uppercase;
-	letter-spacing: 4px;
-	font-size: 1.6rem;
+	letter-spacing: 1.07vw;
+	font-size: clamp(1.6rem, calc(1.6rem + ((24.55 - 16) * ((100vw - 375px) / (575 - 375)))), 2.455rem);
 	color: var(--grayish-blue);
 }
 
 .last-img {
-	margin-top: 4.5em;
-	margin-bottom: 2em;
-	width: 65px;
+	margin-top: 19.2vw;
+	margin-bottom: 8.53vw;
+	width: 17.33vw;
 	border-radius: 50%;
 }
 
 .last-info {
-	font-size: 1.75rem;
+	font-size: clamp(1.75rem, calc(1.75rem + ((26.85 - 17.5) * ((100vw - 375px) / (575 - 375)))), 2.685rem);
 	font-weight: 600;
 	color: var(--very-dark-grayish-blue);
 	line-height: 1.7;
 }
 
 .last-name {
-	margin-top: 2em;
-	margin-bottom: 0.7em;
+	margin-top: 8.53vw;
+	margin-bottom: 2.99vw;
 	font-family: var(--fraunces);
 	font-weight: 900;
+	font-size: clamp(1.6rem, calc(1.6rem + ((24.55 - 16) * ((100vw - 375px) / (575 - 375)))), 2.455rem);
+	font-size: 4.27vw;
 }
 
 .last-job {
-	font-size: 1.3rem;
+	font-size: clamp(1.3rem, calc(1.3rem + ((19.95 - 13) * ((100vw - 375px) / (575 - 375)))), 1.995rem);
 	color: var(--grayish-blue);
 }
 
@@ -233,34 +235,39 @@ body {
 }
 
 .footer {
-	padding: 3.5em 2.5em;
+	padding: 14.93vw 6.83vw;
 	text-align: center;
 	background-color: #90d4c5;
 }
 
 .footer-img {
-	margin-bottom: 2.5em;
+	margin-bottom: 10.67vw;
 	width: 50%;
-	filter: invert(36%) sepia(6%) saturate(3994%) hue-rotate(123deg) brightness(57%) contrast(80%);
+	filter: invert(36%) sepia(6%) saturate(3994%) hue-rotate(123deg) brightness(55%) contrast(80%);
 }
 
 .footer-links {
+	margin: 0 1.28vw;
 	display: flex;
 	justify-content: space-between;
 }
 
 .footer-link {
-	margin-bottom: 5em;
+	margin-bottom: 21.33vw;
 	color: var(--dark-moderate-cyan);
 	font-weight: 600;
-	font-size: 1.8rem;
+	font-size: clamp(1.8rem, calc(1.8rem + ((27.6 - 18) * ((100vw - 375px) / (575 - 375)))), 2.76rem);
 }
 
 .footer-icons {
-	margin: 0 2.5em;
-	margin-bottom: 2em;
+	margin-bottom: 8.53vw;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
+	column-gap: 8.53vw;
+}
+
+.footer-icon {
+	width: 5.33vw;
 }
 
 // - Mobile: 375px
